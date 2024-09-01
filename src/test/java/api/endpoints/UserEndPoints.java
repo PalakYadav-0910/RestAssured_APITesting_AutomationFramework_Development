@@ -53,7 +53,7 @@ public class UserEndPoints {
         Response response = given()
                 .accept(ContentType.JSON)
                 .pathParams("username", username)
-                
+
                 .when()
                 .delete(delete_url);
 

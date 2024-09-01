@@ -11,7 +11,6 @@ public class User {
     String email;
     String password;
     String phone;
-    int userStatus;
 
     public int getId() {
         return id;
@@ -68,13 +67,5 @@ public class User {
     public void setPhone(String phone) {
         this.phone = phone;
     }
-
-    public int getUserStatus() {
-        return userStatus;
-    }
-
-    public void setUserStatus(int userStatus) {
-        this.userStatus = userStatus;
-    }
-
+    
 }

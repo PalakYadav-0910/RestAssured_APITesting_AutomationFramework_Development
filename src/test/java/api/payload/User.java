@@ -9,6 +9,9 @@ public class User {
     String firstName;
     String lastName;
     String email;
+    String password;
+    String phone;
+    int userStatus;
 
     public int getId() {
         return id;
@@ -73,9 +76,5 @@ public class User {
     public void setUserStatus(int userStatus) {
         this.userStatus = userStatus;
     }
-
-    String password;
-    String phone;
-    int userStatus;
 
 }
